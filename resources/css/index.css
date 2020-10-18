@@ -40,7 +40,7 @@ a{
 
 .footer{
     background-color: navy;
-    height: 60px;
+    height: 10%x;
 }
 
 .section2 .p1  {
@@ -155,7 +155,25 @@ a{
     padding-bottom: 10%;
 }
 
+.subsection3 .color_center_background{
+    height: 250px;
+    background-color: gray;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
 
+.subsection3 .subsection3_image{
+    margin-top: -10%;
+}
 
+.footer{
+    color: white;
+    font-size: 1.5vw;
+}
 
-
+.footer-text{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
