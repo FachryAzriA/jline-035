@@ -9,7 +9,7 @@ a{
 }
 
 .section1{
-    background-image: url("../images/bg_aircraftNose.jpg");
+    background-image: url("../images/bg_section1.jpg");
     height: 500px;
     background-position: center; 
     background-repeat: no-repeat; 
@@ -44,7 +44,7 @@ a{
 }
 
 .section2 .p1  {
-    margin-top: 80px;
+    margin-top: 50px;
     margin-right: 60px;
     margin-left: 60px;
 }
@@ -55,43 +55,9 @@ a{
     margin-left: 60px;
 }
 
-.menu1{
-    background-image: url("../images/bg_aircraftNose.jpg"); 
-    height: 500px;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-}
-
-.menu2{
-    background-image: url("../images/bg_aircraftNose.jpg"); 
-    height: 500px;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-}
-
-.menu3{
-    background-image: url("../images/bg_aircraftNose.jpg"); 
-    height: 500px;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-}
-
-.menu4{
-    background-image: url("../images/bg_aircraftNose.jpg"); 
-    height: 500px;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-}
-
-.menu5{
-    background-image: url("../images/bg_aircraftNose.jpg"); 
-    height: 500px;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-}
-
 /* css for each subsection or its attributes */
 
+/* section 1 */
 .section1 .main_title{
     color: white;
 }
@@ -121,7 +87,7 @@ a{
 
 .bottom_center_color_background .second_title_explanation{
     text-align: center;
-    color: blue;
+    color: grey;
 }
 
 .bottom_center_color_background .second_title{
@@ -130,44 +96,65 @@ a{
 
 .section1 .bottom_center_color_background{
     background-color: white;
-    margin-right: 150px;
-    margin-left: 150px;
-    margin-top: 190px;
-    height: 150px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10rem;
 }
 
-.subsection2 .image_center_text{
-    background-image: url("../images/bg_aircraftNose.jpg");
-    height: 300px;
+/* section 2 */
+
+.subsection1 .menu1,.menu2,.menu3,.menu4,.menu5{ 
+    height: 500px;
     background-repeat: no-repeat; 
     background-size: cover; 
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 150px;
 }
 
-.subsection3,.subsection4 .color_center_background{
-    background-color:grey;
-    opacity: 30%;
-    height: 350px;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    margin-top: 300px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 150px;
+.subsection1 .menu1{
+    background-image: url("../images/bg_section2-1.jpg");
 }
 
-.subsection5 .color_middle_background{
-    background-color:grey;
-    opacity: 30%;
-    height: 350px;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    margin-top: 300px;
-    margin-bottom: 100px;
+.subsection1 .menu2{
+    background-image: url("../images/bg_section2-2.jpg"); 
 }
+
+.subsection1 .menu3{
+    background-image: url("../images/bg_section2-3.jpg"); 
+}
+
+.subsection1 .menu4{
+    background-image: url("../images/bg_section2-4.jpg"); 
+}
+
+.subsection1 .menu5{
+    background-image: url("../images/bg_section2-5.jpg"); 
+}
+
+.subsection2 .aim-image {
+    height: 10%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-image: url("../images/bg_section2_subsec2.jpg");
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.subsection2 .aim-image .aim-jp, .aim-en {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subsection2 .aim-image .aim-jp{
+    font-size: 3.5vw;
+    padding-top: 5%;
+}
+
+.subsection2 .aim-image .aim-en{
+    font-size: 1.5vw;
+    padding-bottom: 10%;
+}
+
 
 
 
