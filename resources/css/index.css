@@ -10,7 +10,7 @@ a{
 
 .section1{
     background-image: url("../images/bg_section1.jpg");
-    height: 500px;
+    height: 800px;
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -64,7 +64,7 @@ a{
 
 .section1 .main_title,.second_title{
     font-size: 4vw;
-    margin-top: 2%;
+    margin-top: 15%;
     text-align: center;
 }
 
@@ -85,7 +85,7 @@ a{
     padding-top: 2%;
 }
 
-.subsection1 .second_title_explanation{
+.section1 .second_title_explanation{
     text-align: center;
     color: grey;
 }
@@ -99,8 +99,10 @@ a{
     height: 10rem;
     margin-right: 10%;
     margin-left: 10%;
-    margin-top: 12%;
+    margin-top: 17rem;
 }
+
+
 
 /* section 2 */
 
@@ -156,13 +158,23 @@ a{
     padding-bottom: 10%;
 }
 
-.subsection3 .color_center_background{
-    height: 250px;
-    background-color: gray;
-    margin-top: 20%;
-    margin-bottom: 10%;
-    margin-left: 7%;
-    margin-right: 7%;
+.subsection3 .project-story{
+    height: 350px;
+    width: auto;
+    background-image: url("../images/img_project-story.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.subsection4 .work-style{
+    height: 350px;
+    width: auto;
+    background-image: url("../images/work-style.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    margin-top: 10%;
 }
 
 /* section 3*/
@@ -178,8 +190,13 @@ a{
     padding-top: 5%;
 }
 
-.section4-content-l{
+.section3-content-l{
     margin-right: 40px;
+}
+
+.section3-content-l, .section3-content-r{
+    width: auto;
+    height: auto;
 }
 
 .footer{
@@ -191,6 +208,19 @@ a{
     padding-top: 3%;
     padding-bottom: 3%;
 }
+
+/* Section 4 */
+.section4 .section4-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5vw;
+    color: blue;
+    margin-top: 6%;
+} 
+
+.section4 .section4-title-jp{
+    color: gray;
+}
+
 
 /* navbar icon menu */
 .icon {
