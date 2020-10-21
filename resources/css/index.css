@@ -18,7 +18,7 @@ a{
 
 .section2{
     background-color:white;
-    height: 4000px;
+    height: 2700px;
     text-align: center;
 }
 
@@ -56,6 +56,10 @@ a{
 }
 
 /* css for each subsection or its attributes */
+
+.subsection3, .subsection4, .subsection5{
+    height: 400px;
+}
 
 /* section 1 */
 .section1 .main_title{
@@ -101,8 +105,6 @@ a{
     margin-left: 10%;
     margin-top: 17rem;
 }
-
-
 
 /* section 2 */
 
@@ -161,20 +163,115 @@ a{
 .subsection3 .project-story{
     height: 350px;
     width: auto;
-    background-image: url("../images/img_project-story.jpg");
+    background-image: url("../images/bg_grey-color.jpg");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
 
+.project-story .project-story-button{
+    background-color: navy;
+    padding: 1% 4%;
+    color: white;
+    margin-top: 1%;
+    margin-left: 60%;
+    font-size: 1.5vw;
+}
+
+.project-story .work-style-word{
+    text-align: left;
+}
+
+.work-style-word{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5vw;
+    color: blue;
+    margin-top: -2%;
+}
+
 .subsection4 .work-style{
     height: 350px;
     width: auto;
-    background-image: url("../images/work-style.jpg");
+    background-image: url("../images/bg_grey-color.jpg");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
+    margin: 10% 0;
+}
+
+.work-style .work-style-word{
+    padding-left: 5%;
+}
+
+.work-style .subsection4-img{
+    background-image: url("../images/img_workstyle.jpg");
+    margin-top: -4%;
+    height: 100%;
+    width: auto;
+}
+
+.work-style .work-style-button{
+    background-color: navy;
+    padding: 1% 4%;
+    color: white;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.subsection3 .subsection3-img{
+    background-image: url("../images/img_project-story.jpg");
+    margin-top: -4%;
+    height: 100%;
+    width: auto;
+}
+
+
+
+.section2 .subsection5{
     margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.subsection5 .interview{
+    height: 350px;
+    width: auto;
+    background-image: url("../images/bg_interview.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.interview .subsection5-img{
+    height: 100%;
+    width: auto;
+    background-image: url("../images/img_photo.jpg");
+    background-repeat: no-repeat; 
+    margin-top: -5%;
+    margin-right: 10%;
+}
+
+.interview-info p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.interview-info .title{
+    color: blue;
+    font-size: 6vw;
+    text-align: left;
+    padding-left: 20%;
+    margin-top: -10%;
+}
+
+.interview-info .second-title{
+    color: gray;
+    padding-left: 20%;
+    text-align: left;
+}
+
+.interview-info .content, .content-note{
+    text-align: justify;
+    padding-left: 20%;
+    font-size: 1.5vw;
 }
 
 /* section 3*/
