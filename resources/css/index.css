@@ -18,16 +18,18 @@ a{
 
 .section2{
     background-color:white;
-    height: 2700px;
+    height: 2400px;
     text-align: center;
+    margin-bottom: 20%;
 }
 
 .section3{
     background-image: url("../images/bg_section3.jpg");
-    height: 700px;
+    height: 900px;
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
+    padding: 5% 0;
 }
 
 .section4{
@@ -280,20 +282,6 @@ a{
     background-color: white;
     height: 100px;
     color: black;
-}
-
-.section3 .img-exp > p{
-    margin-left: 3%;
-    padding-top: 5%;
-}
-
-.section3-content-l{
-    margin-right: 40px;
-}
-
-.section3-content-l, .section3-content-r{
-    width: auto;
-    height: auto;
 }
 
 .footer{
